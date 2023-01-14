@@ -1,0 +1,114 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+ //VECTORI 
+// {int n; //dimensiunea vectorului a
+//  int a[100]; //dimensiunea maxima a vectorului a
+//  cout<<"n=";
+//  cin>>n;
+//  for(int i=0; i<n; i++)
+//   {
+//       cout<<"a["<<i<<"]=";
+//       cin>>a[i];
+//   }
+    
+    //afisarea valorilor date cu "-" intre ele 
+    
+//  {int n;
+//   int a[100];
+//   cout<<"n=";
+//   cin>>n;
+//   for(int i=0; i<n; i++)
+//   {
+//       cout<<"a["<<i<<"]=";
+//       cin>>a[i];
+//   }
+//   cout<<"val introduse sunt:";
+//   for(int i=0; i<n; i++)
+//   { cout<<a[i];
+//       if(i<n-1)
+//       {
+//           cout<<"-";
+//       }
+//   }
+    
+    // { //maximul dintr un vector si pozitia acestuia
+    //  int a[100];
+    //  int n;
+    //  cout<<"n=";
+    //  cin>>n;
+    //  int max=0;
+    //  int k=0; // variabila ajutatoare pt sttabilirea pozitiei
+    //  for(int i=0;i<n; i++)
+    //   {cout<<"a["<<i<<"]=";
+    //     cin>>a[i];
+    //   }
+    //  for(int i=0; i<n; i++)
+    //   {if(a[i]>=max) 
+    //   {
+    //       max=a[i];
+    //       k=i;
+    //   }
+          
+    //   }
+    //   cout<<"maximult este:"<<max<<endl;
+    //   cout<<"pozitia sa este"<<k;
+
+    { // AFISAREA NR PARE DINTR UN VECTOR:
+      int n;
+      int a[100];
+      cout<<"n=";
+      cin>>n;
+      for(int i=0; i<n; i++)
+       {cout<<"a["<<i<<"]=";
+       cin>>a[i];
+       }
+       cout<<"nr pare sunt:"<<" ";
+       for(int i=0; i<n; i++)
+       
+       {
+       if(a[i]%2==0)
+        {cout<<"a["<<i<<"]"<<" ";
+            
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
